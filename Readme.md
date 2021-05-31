@@ -7,8 +7,8 @@ In this package, we find:
   * The projection matrix (F)
   * Eigenvualues, percentage of variance and cumulative percentage of variance
   * Relative contributions of variables
-  * Relative contributions of the observations
-  * Absolute contributions of the observations (cos²)
+  * Relative contributions of the observations (cos²)
+  * Absolute contributions of the observations 
   * Search for optimal alpha in order to detect and minimize the influence of outliers
   * 2D graphics of the observations
   * 3D graphics of the observations
@@ -86,14 +86,13 @@ print(model.circle_correlation(x))
 
 
     
-![png](output_14_1.png)
-    
+![png](circle_of_correlation.png)
 
 
     None
 
 
-### Find the projection matrix (F)
+### The projection matrix of the observations (points)
 
 
 ```python
@@ -277,7 +276,7 @@ print(model.plot2D(x, alpha))
 
 
     
-![png](output_26_1.png)
+![png](2D_graph.png)
     
 
 
@@ -300,7 +299,7 @@ print(model.plot3D(x, alpha))
 
 
     
-![png](output_29_1.png)
+![png](3D_graph.png)
     
 
 
