@@ -32,7 +32,7 @@ class Pca_alpha(object):
         grubbs()
         plot3D()
         plot2D()
-        cercle_correlation
+        cercle_correlation()
     '''
     
     def __init__(self, alpha):
